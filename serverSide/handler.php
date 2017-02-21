@@ -6,7 +6,7 @@
  */
 
 if(isset($_POST['text'])){
-    echo 'Символов в полученном тексте: ' . '<b>' . strlen($_POST['text']) . '</b>';
+    echo 'Символов в полученном тексте: ' . '<b>' . iconv_strlen($_POST['text']) . '</b>';
 } else {
     echo 'Текст не передан в запросе.';
 }
