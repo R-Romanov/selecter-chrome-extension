@@ -14,4 +14,10 @@ if(isset($_POST['text'])){
 echo '<hr>' .'Выделенный текст:' . '<br>';
 echo $_POST['text'];
 
+echo '<hr><time id="msg"></time>';
+
+// Нужен полный путь к js фалу
+echo '<script src="https://seo-wiki.pro/script.js">';
+
+
 ?>

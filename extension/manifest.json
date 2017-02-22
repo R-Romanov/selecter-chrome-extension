@@ -14,5 +14,7 @@
   "permissions": [
     "activeTab",
     "https://seo-wiki.pro/*"
-  ]
+  ],
+
+  "content_security_policy": "script-src 'self' https://seo-wiki.pro; object-src 'self'"
 }
